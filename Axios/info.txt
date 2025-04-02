@@ -1,0 +1,5 @@
+Axios is basically a library for making HTTP requests. Axios is a promise-based HTTP client for the browser and node.js.
+Axios internally uses fetch, but it provides a simpler and more intuitive API for making HTTP requests. 
+Or we can say it's a better way to send our requests.
+Visit Axios Github for more details.
+It's a library so we can also install it but we will copy it's cdn link

@@ -1,6 +1,6 @@
 //Same thing we could do for our dog API
 let btn = document.querySelector("button");
-let url2 = "https://dog.ceo/api/breeds/image/random";
+let url = "https://dog.ceo/api/breeds/image/random";
 
 btn.addEventListener("click", async ()=>{
     // let fact = await getDogImg();
@@ -15,7 +15,7 @@ btn.addEventListener("click", async ()=>{
 
 async function getDogImg(){
     try{
-    let res = await axios.get(url2);
+    let res = await axios.get(url);
     // return res.data.fact;
     return res.data.message;
     }

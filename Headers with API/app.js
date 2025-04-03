@@ -1,3 +1,4 @@
+//Sending Headers with API requests.
 const url = "https://icanhazdadjoke.com/";
 
 async function getJokes(){
